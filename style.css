@@ -94,3 +94,21 @@ body{
     left: -20px;
     z-index: -1;
   }
+
+  .container-shop{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px;    
+}
+
+.container-shop img{
+    cursor: pointer;
+    height: 180px;
+    width: 280px;
+  }
+
+  .container-shop span{
+    background-color: green;
+    border-radius: 2px;
+
+  }
