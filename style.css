@@ -112,3 +112,22 @@ body{
     border-radius: 2px;
 
   }
+
+  .aulas{
+      display: flex;
+    margin:5px;
+    height: 500px;
+    background-image: url(./img-yoga/bg-aula.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .aulas-h1{
+    font-size: 48px;
+    color: azure;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
