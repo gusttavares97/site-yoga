@@ -131,3 +131,24 @@ body{
     margin-top: 20%;
     margin-left: 10%;
   }
+
+  .section-befeficios{
+    background-color:green ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 300px;
+    color: white;
+  }
+
+  .section-befeficios div{
+    margin: 20px;
+  }
+
+  .section-befeficios img{
+    display: inline-block;
+  }
+
+  .section-befeficios h1{
+    display: inline-block;
+    font-size: 22px;
+  }
