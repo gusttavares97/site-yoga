@@ -191,3 +191,202 @@ body{
     margin-left: 40%;
     color: white;
   }
+
+  
+    
+  @media(max-width:900px){
+   
+    .main{
+    height: 500px;
+}
+.container-text{
+    margin-top: 30%;
+    margin-left: 20%;
+    font-size: 36px;
+}
+
+.asanas{
+  margin-top: 100px;
+}
+
+.titulo{
+  font-size:28px ;
+  margin: 10px;
+}
+
+.container-asanas{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  margin: 20px;
+}
+
+.container-asanas img{
+  height: 200px;
+  width: 300px;
+  cursor: pointer;
+}
+.container-asanas h2{
+  font-size: 23px;
+}
+
+.titulo-video{
+  font-size:42px ;
+  margin-left: 20px;
+}
+
+.container-video{
+  display: grid;
+   grid-template-columns:  1fr ;
+  
+}
+
+.container-video video{
+  margin: 50px;
+  height: 400px;
+  width: 500px;
+}
+
+.container-video p {
+  margin: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.container-shop{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 35px;    
+}
+
+.container-shop img{
+  cursor: pointer;
+  height: 140px;
+  width: 240px;
+}
+
+.aulas{
+  display: flex;
+}
+
+.aulas-h1{
+font-size: 30px;
+color: rgb(126, 136, 136);
+
+}
+
+.section-befeficios{
+  background-color:green ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 280px;
+  color: white;
+}
+
+.section-befeficios div{
+  margin: 15px;
+}
+
+.section-befeficios h1{
+  display: inline-block;
+  font-size: 18px;
+}
+  }
+
+  @media(max-width:550px){
+ 
+    .main{
+      height: 400px;
+      width:  550px;
+  }
+  .container-text{
+      margin-top: 40%;
+      margin-left:2px;
+      font-size: 32px;
+  }
+
+
+.container-asanas{
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin: 20px;
+    margin-left: 60px;
+}
+
+.container-asanas img{
+    height: 200px;
+    width: 300px;
+    cursor: pointer;
+}
+.container-asanas h2{
+    font-size: 23px;
+}
+
+.titulo-video{
+  font-size:32px ;
+  margin-left: 20px;
+}
+
+.container-video{
+  display: grid;
+   grid-template-columns:  1fr ;
+  
+}
+
+.container-video video{
+  margin: 50px;
+  height: 280px;
+  width: 420px;
+}
+
+.container-shop{
+  display: grid;
+  grid-template-columns: 1fr ;
+  margin-left: 50px;
+  margin: 40px;    
+}
+
+.container-shop img{
+  height: 140px;
+  width: 240px;
+}
+
+.aulas-h1{
+font-size: 28px;
+}
+
+.aulas-h1{
+  font-size: 32px;
+  color: rgb(126, 136, 136);
+  
+  }
+  
+  .section-befeficios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 280px;
+    color: white;
+  }
+  
+  .section-befeficios div{
+    margin: 15px;
+  }
+  
+  .section-befeficios h1{
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  .footer{
+    width: 500px;
+  }
+
+  .contatos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+  }
+
+  .contatos li{
+    margin: 12px;
+  }
+  }
