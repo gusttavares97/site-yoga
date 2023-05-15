@@ -152,3 +152,42 @@ body{
     display: inline-block;
     font-size: 22px;
   }
+
+  .footer{
+    background-color: rgb(179, 181, 182);
+
+  }
+
+  .contatos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+  }
+
+  .contatos li{
+    margin: 8px;
+    list-style: none;
+    cursor: pointer;
+    font-size:22px ;
+  }
+
+  .redes{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+  }
+  .redes img{
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .copy{
+    font-size: 22px;
+    background-color: black;
+  }
+
+  .copy h1{
+    margin-left: 40%;
+    color: white;
+  }
