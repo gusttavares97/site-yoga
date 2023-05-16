@@ -299,11 +299,11 @@ color: rgb(126, 136, 136);
 }
   }
 
-  @media(max-width:520px){
+  @media(max-width:500px){
  
     .main{
       display: flex;
-      width: 520px;
+      width: 500px;
 
       
     }
@@ -371,7 +371,7 @@ color: rgb(126, 136, 136);
 }
 
 .aulas{
-  width: 520px;
+  width: 500px;
 }
 
 .aulas-h1{
@@ -383,7 +383,7 @@ color: rgb(126, 136, 136);
   .section-befeficios{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 520px;
+    width: 500px;
     height: 280px;
     color: white;
   }
