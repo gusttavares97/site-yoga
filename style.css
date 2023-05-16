@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 main, body, div, span,
 h1, h2, h3, a, img, form, footer, header,  
 menu, nav {
@@ -78,7 +80,8 @@ body{
 
 .container-video p {
     margin-top: 110px;
-    font-size: 28px;
+    font-size: 26px;
+    font-family: 'Indie Flower', cursive;
     position: relative;
   }
   
@@ -124,8 +127,9 @@ body{
   }
 
   .aulas-h1{
-    font-size: 48px;
+    font-size: 36px;
     color: azure;
+    font-family: 'Indie Flower', cursive;
     align-items: center;
     justify-content: center;
     margin-top: 20%;
@@ -197,7 +201,9 @@ body{
   @media(max-width:900px){
    
     .main{
+      display: flex;
     height: 500px;
+    
 }
 .container-text{
     margin-top: 30%;
@@ -266,6 +272,7 @@ body{
 
 .aulas{
   display: flex;
+  
 }
 
 .aulas-h1{
@@ -292,16 +299,24 @@ color: rgb(126, 136, 136);
 }
   }
 
-  @media(max-width:550px){
+  @media(max-width:520px){
  
     .main{
-      height: 400px;
-      width:  550px;
-  }
-  .container-text{
-      margin-top: 40%;
-      margin-left:2px;
-      font-size: 32px;
+      display: flex;
+      width: 520px;
+
+      
+    }
+    .container-text{
+      margin-top: 60%;
+      margin-left:40px;
+      width:  70%;
+      height: 15%;
+    }
+    
+    .container-text h1{
+    font-size: 22px;
+
   }
 
 
@@ -314,7 +329,7 @@ color: rgb(126, 136, 136);
 
 .container-asanas img{
     height: 200px;
-    width: 300px;
+    width: 280px;
     cursor: pointer;
 }
 .container-asanas h2{
@@ -328,14 +343,19 @@ color: rgb(126, 136, 136);
 
 .container-video{
   display: grid;
-   grid-template-columns:  1fr ;
+  grid-template-columns:  1fr ;
+  margin-left: 10%;
   
 }
 
 .container-video video{
-  margin: 50px;
+  width: 80%;
+  margin: 20px;
   height: 280px;
-  width: 420px;
+}
+
+.p-videos{
+  width: 400px;
 }
 
 .container-shop{
@@ -350,12 +370,12 @@ color: rgb(126, 136, 136);
   width: 240px;
 }
 
-.aulas-h1{
-font-size: 28px;
+.aulas{
+  width: 520px;
 }
 
 .aulas-h1{
-  font-size: 32px;
+  font-size: 28px;
   color: rgb(126, 136, 136);
   
   }
@@ -363,6 +383,7 @@ font-size: 28px;
   .section-befeficios{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 520px;
     height: 280px;
     color: white;
   }
