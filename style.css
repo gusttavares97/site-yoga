@@ -196,6 +196,23 @@ body{
     color: white;
   }
 
+  [data-semana]::after{
+    display: inline-block;
+    content: '';
+    height: 8px;
+    width: 8px;
+    background: red;
+    margin-left: 5px;
+    border: 2px solid #000;
+  }
+
+  [data-semana].aberto::after{
+    background: green;
+
+  }
+
+
+
   
     
   @media(max-width:900px){
@@ -299,11 +316,11 @@ color: rgb(126, 136, 136);
 }
   }
 
-  @media(max-width:500px){
+  @media(max-width:480px){
  
     .main{
       display: flex;
-      width: 500px;
+      width: 480px;
 
       
     }
@@ -371,7 +388,7 @@ color: rgb(126, 136, 136);
 }
 
 .aulas{
-  width: 500px;
+  width: 480px;
 }
 
 .aulas-h1{
@@ -383,7 +400,7 @@ color: rgb(126, 136, 136);
   .section-befeficios{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 500px;
+    width: 480px;
     height: 280px;
     color: white;
   }
@@ -398,7 +415,7 @@ color: rgb(126, 136, 136);
   }
 
   .footer{
-    width: 500px;
+    width: 480px;
   }
 
   .contatos{
